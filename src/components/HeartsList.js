@@ -1,4 +1,4 @@
-import Heart from './Heart';
+import CandyColoredHeart from "./CandyColoredHeart";
 
 const messages = [
     'cool cud',
@@ -28,7 +28,7 @@ const HeartsList = () => {
         <div className='hearts-container'>
             {messages.map((message, index) => (
                 // The key={index}, with the key prop defined above, prevents the key console error
-                <Heart key={index} msg={message}/>
+                <CandyColoredHeart key={index} msg={message}/>
             ))}
         </div>
     )
